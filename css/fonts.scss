@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Aspergit";
+  src: url("../fonts/AspergitLight.woff2") format("woff2"),
+    url("../fonts/AspergitLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aspergit";
+  src: url("../fonts/Aspergit.woff2") format("woff2"),
+    url("../fonts/Aspergit.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Regular.woff2") format("woff2"),
+    url("../fonts/Jost-Regular.woff") format("woff");
+  font-weight: 1 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aspergit";
+  src: url("../fonts/AspergitBold.woff2") format("woff2"),
+    url("../fonts/AspergitBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aspergit";
+  src: url("../fonts/AspergitItalic.woff2") format("woff2"),
+    url("../fonts/AspergitItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aspergit";
+  src: url("../fonts/AspergitLightItalic.woff2") format("woff2"),
+    url("../fonts/AspergitLightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aspergit";
+  src: url("../fonts/AspergitBoldItalic.woff2") format("woff2"),
+    url("../fonts/AspergitBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+.aspergit-113-700 {
+  font-family: "Aspergit";
+  font-size: 113px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117%; /* 132.21px */
+  letter-spacing: -6.78px;
+  text-transform: uppercase;
+  @media screen and (max-width: 1366px) {
+    font-size: 70px;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 60px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 48px;
+  }
+}
+
+.aspergit-94-700 {
+  font-family: "Aspergit";
+  font-size: 94px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117%;
+  letter-spacing: -2.82px;
+  text-transform: uppercase;
+  @media screen and (max-width: 1366px) {
+    font-size: 64px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 54px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 44px;
+  }
+}
+
+.aspergit-54-700 {
+  font-family: "Aspergit";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  @media screen and (max-width: 1366px) {
+    font-size: 48px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 40px;
+  }
+}
+
+.aspergit-44-700 {
+  font-family: "Aspergit";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 113.636%;
+  letter-spacing: 0.88px;
+  @media screen and (max-width: 1366px) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 28px;
+  }
+}
+
+.aspergit-30-700 {
+  font-family: "Aspergit";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.6px;
+  @media screen and (max-width: 1366px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
+}
+
+.jost-30-300 {
+  font-family: "Jost";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -1.2px;
+  @media screen and (max-width: 1366px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
+}
+
+.jost-28-300 {
+  font-family: "Jost";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 114.286%;
+  letter-spacing: -1.12px;
+  @media screen and (max-width: 1366px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+  }
+}
+
+.aspergit-18-700 {
+  font-family: "Aspergit";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1921px) {
+  .aspergit-113-700 {
+    font-size: 5.88542vw;
+    letter-spacing: -0.3125vw;
+  }
+  .aspergit-94-700 {
+    font-size: 4.89583vw;
+    letter-spacing: -0.10417vw;
+  }
+  .aspergit-54-700 {
+    font-size: 2.8125vw;
+    line-height: 4.01042vw;
+  }
+  .aspergit-44-700 {
+    font-size: 2.29167vw;
+    line-height: 2.60417vw;
+    letter-spacing: 0vw;
+  }
+  .aspergit-30-700 {
+    font-size: 1.5625vw;
+    line-height: 1.5625vw;
+    letter-spacing: -0vw;
+  }
+  .jost-30-300 {
+    font-size: 1.5625vw;
+    line-height: 1.71875vw;
+    letter-spacing: -0.05208vw;
+  }
+  .jost-28-300 {
+    font-size: 1.45833vw;
+    line-height: 1.66667vw;
+    letter-spacing: -0.05208vw;
+  }
+  .aspergit-18-700 {
+    font-size: 0.9375vw;
+    letter-spacing: -0vw;
+  }
+}
